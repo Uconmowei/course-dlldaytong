@@ -1,0 +1,139 @@
+.home-container{
+    height: 100%;
+    width: 100%;
+    @include flexbox();
+    @include flex-direction(column);
+    div.ht5{
+            width: 100%;
+            height: .18rem;
+            background: #f7f9f8;
+            @include border(1px 0 1px 0,#e7e7e7,solid);
+        }
+    header{
+        width: 100%;
+        height: 0.44rem;
+        background: #84C833;
+        ul{
+            @include flexbox();
+            width: 100%;
+            height: 100%;
+            li{
+                &:nth-child(1){
+                    width: 0.8rem;
+                    height: 100%;
+                    font-size: 0.2rem;
+                    line-height: 0.44rem;
+                    padding-left: 0.05rem;
+                    color: white;
+                    i{
+                        font-size: 0.12rem;
+                        color: white;
+                    }
+                }
+                
+                &:nth-child(2){
+                    @include flex(1);
+                    @include flexbox();
+                    @include align-items(center);
+                    div{
+                        width: 1.5rem;
+                        height: 100%;
+                        input{
+                            width: 1.5rem;
+                            height: .25rem;
+                            border: none;
+                            background: #67A224;
+                        }
+                    }
+                }
+                
+                &:nth-child(3){
+                    width: 0.5rem;
+                    height: 100%;
+                    font-size: 0.3rem;
+                    color: white;
+                    line-height: 0.44rem;
+                    padding-left: 0.05rem;
+                }
+            }
+            
+        }
+    }
+    
+    
+    
+    
+    
+    footer{
+        width: 100%;
+        height: 0.44rem;
+        background: #FAFAFA;
+        z-index: 1000000;
+        ul{
+            width: 100%;
+            height: 0.44rem;
+            @include flexbox();
+//          @include box-sizing(border-box);
+//          @include border(1px 0 0 0, #d9d9d9);
+            //1像素边框
+            @include box-sizing(border-box);
+            @include border(1px 0 0 0,#d9d9d9)
+            @include justify-content(center);
+            @include align-items(center);
+            li{
+                @include flex(1);
+                @include flexbox();
+                @include flex-direction(column);
+                @include justify-content(center);
+                @include align-items(center);
+                font-size: 0.2rem;
+                i{
+                    display: block;
+                    line-height: .2rem;
+                }
+                p{
+                    font-size: 0.12rem;
+                }
+                &.active i,
+                &.active p{
+                    color: #90C84D;
+                }
+                &:nth-child(3){
+                    position: relative;
+                    color: #80C431;
+                    i{
+                        position: absolute;
+                        top: -.07rem;
+//                      left: -50%;
+                        width: .5rem;
+                        height: .5rem;
+                        @include border(1px, #d9d9d9,solid,50%);
+                        font-size: .4rem;
+                        font-size: .4rem;
+                        text-align: center;
+                        line-height: .5rem;
+                        background: #fff;
+                        z-index: 1000;
+                        //color: #d9d9d9;
+                        
+                    }
+//                  position: relative;
+//                  i {
+//                      position: absolute !important;
+//                      top: -.28rem;
+//                      left: 50%;
+//                      width: .5rem;
+//                      height: .5rem;
+//                      @include border(1px, #d9d9d9, solid, 50%);
+//                      font-size: .4rem;
+//                      text-align: center;
+//                      line-height: .5rem;
+//                      background: #fff;
+//                      z-index: 1000;
+//                      @include transform(translate(-50%,0));
+//                  }
+                }
+            }
+        }
+    }
+}

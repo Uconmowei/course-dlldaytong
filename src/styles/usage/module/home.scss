@@ -1,0 +1,86 @@
+.home-container{
+   
+    
+    
+    
+    
+    .scroll-container{
+        @include flex(1);
+        width: 100%;
+        background:white;
+        overflow: hidden;
+        .swiper{
+            width: 100%;
+            background: deepskyblue;
+           img{
+               width: 100%;
+               height: 100%;
+           }
+        }
+        
+        nav{
+            width: 100%;
+            background: white;
+            height: 1.0rem;
+            
+            ul{
+                width: 100%;
+                height: 100%;
+                @include flexbox();
+                
+                li{
+                    @include flex(1);
+                    @include flexbox();
+                    @include flex-direction(column);
+                    @include justify-content(center);
+                    @include align-items(center);
+                    height: 100%;
+                    img{
+                        width: 60%;
+                        height: 50%;
+                    }
+                    p{
+                        font-size: .16rem;
+                        line-height: .4rem;
+                        
+                    }
+                }
+            }
+        }
+        
+        
+        section{
+            div.qianggou{
+                h2{
+                    width: 100%;
+                    height: .40rem;
+                    line-height: .40rem;
+                    padding-left: .15rem;
+                    background: white !important;
+                }
+                ul{
+                    width: 100%;
+                    height: .8rem;
+                    @include flexbox();
+                    @include box-sizing(border-box);
+                    @include border(1px 0 1px 0,#e7e7e7,solid)
+                    li{
+                        width: 100%;
+                        @include flex(1);
+                        height: 100%; 
+                        @include box-sizing(border-box);
+                        @include border(0 1px 0 0,#e7e7e7,solid)
+                        img{
+                            width: 100%;
+                            height: 100%;
+                        } 
+                        &:nth-child(3){
+                            @include border(0);
+                        }                
+                    }
+                }
+            }
+        }
+    }
+    
+}

@@ -1,0 +1,23 @@
+<div class="home-container">
+	<header>
+		<ul>
+			<li class="yo-ico">&#xe60c
+				<i>全日通</i>
+			</li>
+			<li>
+				<div><input type="test"/></div>
+			</li>
+			<li class="yo-ico">&#xe601</li>
+		</ul>
+	</header>
+	<div class="scroll-container" id="scroll-container" spa-widget="scroll"></div>
+	<footer>
+		<ul>
+			<li class="yo-ico active" action-type="switch.tabs" data-tag="home"><i>&#xe604</i><p>首页</p></li>
+			<li class="yo-ico" action-type="switch.tabs" data-tag="search"><i>&#xe6a4</i><p>发现</p></li>
+			<li class="yo-ico"><i>&#xe69f</i></li>
+			<li class="yo-ico" action-type="switch.tabs" data-tag="fujin"><i>&#xe6b6</i><p>附近</p></li>
+			<li class="yo-ico" action-type="switch.tabs" data-tag="my"><i>&#xe614</i><p>个人</p></li>
+		</ul>
+	</footer>
+</div>

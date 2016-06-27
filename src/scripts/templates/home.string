@@ -1,0 +1,73 @@
+<div class= "icont">
+	<div class="swiper">
+			<!-- 轮播图 -->
+		<div class="swiper-container" id="swiper-bo">
+		    <div class="swiper-wrapper">
+		        <div class="swiper-slide">slide111111</div>
+		        <div class="swiper-slide">slide222222</div>
+		        <div class="swiper-slide">slide333333</div>
+		    </div>
+		    <!-- 如果需要分页器 -->
+		    <div class="swiper-pagination"></div>
+		</div>	
+	</div>
+	<nav>
+		<ul>
+			<li>
+				<img src="/dlldaytong/images/home_fresh_icon_one.png">
+				<p>生鲜</p>
+			</li>
+			<li>
+				<img src="/dlldaytong/images/home_fruits_icon_one.png">
+				<p>水果</p>
+			</li>
+			<li>
+				<img src="/dlldaytong/images/home_department_icon_one.png">
+				<p>日用百货</p>
+			</li>
+			<li>
+				<img src="/dlldaytong/images/home_same_day_icon_one.png">
+				<p>当日达</p>
+			</li>
+		</ul>
+	</nav>
+	<div class="ht5"></div>
+	<section>
+		<div class="qianggou">
+			<h2>全日通秒杀</h2>
+			<ul>
+				<li><img src="/dlldaytong/images/section1.jpg"></li>
+				<li><img src="/dlldaytong/images/section1.jpg"></li>
+				<li><img src="/dlldaytong/images/section1.jpg"></li>
+			</ul>
+			<div class="ht5"></div>
+			<ul>
+				<li><img src="/dlldaytong/images/section2.jpg"></li>
+				<li><img src="/dlldaytong/images/section2.jpg"></li>
+			</ul>
+			<ul>
+				<li><img src="/dlldaytong/images/section2.jpg"></li>
+				<li><img src="/dlldaytong/images/section2.jpg"></li>
+			</ul>
+			<div class="ht5"></div>
+		</div>
+		<div class="qianggou">
+			<h2>全日通秒杀</h2>
+			<ul>
+				<li><img src="/dlldaytong/images/section1.jpg"></li>
+				<li><img src="/dlldaytong/images/section1.jpg"></li>
+				<li><img src="/dlldaytong/images/section1.jpg"></li>
+			</ul>
+			<div class="ht5"></div>
+			<ul>
+				<li><img src="/dlldaytong/images/section2.jpg"></li>
+				<li><img src="/dlldaytong/images/section2.jpg"></li>
+			</ul>
+			<ul>
+				<li><img src="/dlldaytong/images/section2.jpg"></li>
+				<li><img src="/dlldaytong/images/section2.jpg"></li>
+			</ul>
+			<div class="ht5"></div>
+		</div>
+	</section>
+</div>

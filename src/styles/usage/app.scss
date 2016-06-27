@@ -1,0 +1,25 @@
+@charset "utf-8";
+@import "../lib/core/reset.scss";
+@import "./core/common.scss";
+
+
+spa-app {
+    position: absolute;
+    overflow: hidden;
+}
+
+spa-view {
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: #eceef0 !important;
+    @include flexbox(flex);
+    @include flex-direction(column);
+}
+
+@import "./module/swiper-3.3.1.min.css";
+@import "./module/home.scss";
+@import "./module/index.scss";
